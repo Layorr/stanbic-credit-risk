@@ -24,3 +24,10 @@ pip install -r requirements.txt
 | 3 | Data Pipeline | Upcoming |
 | 4 | Model Development & XAI | Upcoming |
 | 5 + Final | Dashboard & Deployment | Upcoming |
+
+## Module 3 — Data Pipeline
+Pipeline code: dags/credit_risk_pipeline.py
+Bias detection: src/features/bias_detection.py
+Container: Dockerfile
+Stages: Ingestion → Cleaning → Transformation → Validation → Export
+Tools: Apache Airflow · Great Expectations · Docker · Fairlearn
